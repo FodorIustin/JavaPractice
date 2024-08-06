@@ -34,4 +34,10 @@ public class Person {
     public void setHeight(double height) {
         this.height = height;
     }
+    public void displayDetails() {
+
+        System.out.println("Age: " + age);
+        System.out.println("Name: " + name);
+        System.out.println("Height: " + height + " cm");
+    }
 }
